@@ -1,1 +1,5 @@
 L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni cella ha un numero progressivo, da 1 a 100. Ci saranno quindi 10 caselle per ognuna delle 10 righe. Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed emetto un messaggio in console con il numero della cella cliccata.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Creo un contenitore nel file html che richiamo nel html che richiamo nel file jvascript, poi creo un evento quando clicco un pulzante all'interno metto un ciclo for che creo una section e creo tanti span quanto il valore dell'indice, creo un altro evento che evidenzia gli span cliccati aggiungendogli una classe e stampo il valore della casella, infine modello le caselle e la pagina in css
