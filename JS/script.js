@@ -1,7 +1,7 @@
 
 //* dichiarazione variabili//
-const griglia= document.querySelector('section#griglia');
-const StartButton= document.querySelector('section#start');
+const griglia= document.querySelector('section #griglia');
+const StartButton= document.querySelector('section #start');
 
 //!evento// 
 
@@ -23,14 +23,22 @@ quadrati.classList.add('square');
  
 const elementi= document.createElement('span');
 elementi.append(i+1);
+
 quadrati.appendChild('elementi');
 
 
-//^ Colorare quadrati al clicl//
+//^ Colorare quadrati al click//
 
-quadrati.addEventListener('click')
+quadrati.addEventListener('click', function(){
+ 
+    quadrati.classList.add('active');
+
+    console.log(i);
 
 
+})
+
+griglia.appendChild('quadrati');
 }
 
 
